@@ -18,7 +18,7 @@ A relational database design project developed as part of the coursework at **TH
 
 ## 📌 Project Overview
 
-The Hospital Management System is a normalized relational database solution designed to streamline the operations of a healthcare facility. It manages core hospital entities — **doctors, patients, appointments, diagnoses, prescriptions, medicines, and billing** — through a clean, well-structured schema.
+The Hospital Management System is a normalized relational database solution designed to streamline the operations of a healthcare facility. It manages core hospital entities  **doctors, patients, appointments, diagnoses, prescriptions, medicines, and billing**  through a clean, well-structured schema.
 
 ### Key Features
 - Centralized data management for all hospital operations
@@ -28,28 +28,6 @@ The Hospital Management System is a normalized relational database solution desi
 - Automated billing with itemized medicine records
 - Role-based query support for doctors, patients, nurses, pharmacists, and admins
 
----
-
-## 📁 Repository Structure
-
-```
-hospital-management-system/
-│
-├── README.md
-│
-├── docs/
-│   ├── user_stories.md          # 25 user stories across 5 roles
-│   ├── er_diagram.png           # Entity-Relationship Diagram
-│   └── relational_schema.md     # Final normalized relational schema
-│
-├── sql/
-│   ├── schema.sql               # CREATE TABLE statements (DDL)
-│   ├── sample_data.sql          # INSERT statements with sample data
-│   └── queries.sql              # All 25 user story SQL query implementations
-│
-└── report/
-    └── Project_Report_Hospital_Management_System.pdf
-```
 
 ---
 
@@ -111,7 +89,7 @@ Each story is implemented as a SQL query using joins, aggregations, subqueries, 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/hospital-management-system.git
+   git clone https://github.com/ichbinbhandari/hospital-management-system-database.git
    ```
 
 2. Open your MySQL client (MySQL Workbench, DBeaver, or CLI).
